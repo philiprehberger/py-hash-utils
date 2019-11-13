@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "philiprehberger-hash-utils"
-version = "0.1.0"
+version = "0.1.1"
 description = "Simplified hashing helpers for strings, files, and checksums"
 readme = "README.md"
 license = "MIT"
@@ -20,9 +20,10 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/philiprehberger/py-hash-utils"
+Homepage = "https://github.com/philiprehberger/py-hash-utils#readme"
 Repository = "https://github.com/philiprehberger/py-hash-utils"
 Issues = "https://github.com/philiprehberger/py-hash-utils/issues"
+Changelog = "https://github.com/philiprehberger/py-hash-utils/blob/main/CHANGELOG.md"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/philiprehberger_hash_utils"]
