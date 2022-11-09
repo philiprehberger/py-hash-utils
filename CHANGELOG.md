@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.7
+
+- Document SUPPORTED_ALGORITHMS constant in API table
+- Convert API section to table format
+
 ## 0.1.4
 
 - Add Development section to README
