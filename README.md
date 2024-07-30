@@ -2,8 +2,7 @@
 
 [![Tests](https://github.com/philiprehberger/py-hash-utils/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/py-hash-utils/actions/workflows/publish.yml)
 [![PyPI version](https://img.shields.io/pypi/v/philiprehberger-hash-utils.svg)](https://pypi.org/project/philiprehberger-hash-utils/)
-[![License](https://img.shields.io/github/license/philiprehberger/py-hash-utils)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/py-hash-utils)](https://github.com/philiprehberger/py-hash-utils/commits/main)
 
 Simplified hashing helpers for strings, files, and checksums.
 
@@ -67,7 +66,6 @@ is_valid = verify_checksum("download.zip", expected_sha256)
 | `verify_checksum(path, expected, algorithm="sha256")` | Timing-safe file verification |
 | `SUPPORTED_ALGORITHMS` | List of supported algorithm names |
 
-
 ## Development
 
 ```bash
@@ -75,6 +73,24 @@ pip install -e .
 python -m pytest tests/ -v
 ```
 
+## Support
+
+If you find this project useful:
+
+⭐ [Star the repo](https://github.com/philiprehberger/py-hash-utils)
+
+🐛 [Report issues](https://github.com/philiprehberger/py-hash-utils/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/py-hash-utils/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
+
 ## License
 
-MIT
+[MIT](LICENSE)
