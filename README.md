@@ -63,6 +63,14 @@ is_valid = verify_checksum("download.zip", expected_sha256)
 - `hash_dict(d, algorithm="sha256")` — Deterministic dict hash
 - `verify_checksum(path, expected, algorithm="sha256")` — Timing-safe file verification
 
+
+## Development
+
+```bash
+pip install -e .
+python -m pytest tests/ -v
+```
+
 ## License
 
 MIT
