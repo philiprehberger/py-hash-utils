@@ -1,5 +1,9 @@
 # philiprehberger-hash-utils
 
+[![Tests](https://github.com/philiprehberger/py-hash-utils/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/py-hash-utils/actions/workflows/publish.yml)
+[![PyPI version](https://img.shields.io/pypi/v/philiprehberger-hash-utils.svg)](https://pypi.org/project/philiprehberger-hash-utils/)
+[![License](https://img.shields.io/github/license/philiprehberger/py-hash-utils)](LICENSE)
+
 Simplified hashing helpers for strings, files, and checksums.
 
 ## Installation
