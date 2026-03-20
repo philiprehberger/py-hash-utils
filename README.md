@@ -57,11 +57,13 @@ is_valid = verify_checksum("download.zip", expected_sha256)
 
 ## API
 
-- `hash_string(s, algorithm="sha256")` — Hash a string
-- `hash_bytes(data, algorithm="sha256")` — Hash raw bytes
-- `hash_file(path, algorithm="sha256", chunk_size=8192)` — Hash a file (streaming)
-- `hash_dict(d, algorithm="sha256")` — Deterministic dict hash
-- `verify_checksum(path, expected, algorithm="sha256")` — Timing-safe file verification
+| Function / Class | Description |
+|------------------|-------------|
+| `hash_string(s, algorithm="sha256")` | Hash a string |
+| `hash_bytes(data, algorithm="sha256")` | Hash raw bytes |
+| `hash_file(path, algorithm="sha256", chunk_size=8192)` | Hash a file (streaming) |
+| `hash_dict(d, algorithm="sha256")` | Deterministic dict hash |
+| `verify_checksum(path, expected, algorithm="sha256")` | Timing-safe file verification |
 
 
 ## Development
