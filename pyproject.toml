@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "philiprehberger-hash-utils"
-version = "0.1.4"
+version = "0.1.5"
 description = "Simplified hashing helpers for strings, files, and checksums"
 readme = "README.md"
 license = "MIT"
@@ -31,3 +31,9 @@ Changelog = "https://github.com/philiprehberger/py-hash-utils/blob/main/CHANGELO
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/philiprehberger_hash_utils"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.mypy]
+strict = true
