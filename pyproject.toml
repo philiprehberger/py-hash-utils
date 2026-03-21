@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "philiprehberger-hash-utils"
-version = "0.1.4"
+version = "0.1.7"
 description = "Simplified hashing helpers for strings, files, and checksums"
 readme = "README.md"
 license = "MIT"
