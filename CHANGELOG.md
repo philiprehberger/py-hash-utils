@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.8 (2026-03-22)
+
+- Add pytest and mypy configuration to pyproject.toml
+
 ## 0.1.7
 
 - Document SUPPORTED_ALGORITHMS constant in API table
